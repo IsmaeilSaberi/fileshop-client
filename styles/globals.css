@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: shabnam, -apple-system, sans-serif;
+  font-family: shabnam, sans-serif;
   direction: rtl;
 }
 
@@ -17,7 +17,7 @@ a {
 
 @font-face {
   font-family: shabnam;
-  src: url("/public/fonts/Shabnam.woff");
+  src: url("/fonts/Shabnam.woff");
   font-display: block;
 }
 
