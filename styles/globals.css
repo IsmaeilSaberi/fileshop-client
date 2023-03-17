@@ -10,6 +10,11 @@ body {
   direction: rtl;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: shabnam;
   src: url("/public/fonts/Shabnam.woff");
