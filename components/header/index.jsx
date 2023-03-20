@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className="container mx-auto py-2">
       <div className="flex justify-between items-start gap-4">
-        <div className="flex flex-col relative h-[13vw] w-48">
+        <div className="flex flex-col relative h-[14vw] w-48">
           <Link
             onMouseEnter={() => setLogoHover(1)}
             onMouseLeave={() => setLogoHover(0)}
@@ -41,7 +41,7 @@ const Header = () => {
             className={
               logoHover == 0
                 ? "absolute bg-red-100 bottom-20 right-0 left-0 z-10 flex justify-around items-center text-[1.6rem] p-2 text-indigo-600 rounded-bl-lg rounded-br-lg transition-all duration-300"
-                : "absolute bg-red-100 bottom-2 right-0 left-0 z-10 flex justify-around items-center text-[1.6rem] p-2 text-indigo-600 rounded-bl-lg rounded-br-lg transition-all duration-300"
+                : "absolute bg-red-100 bottom-0 right-0 left-0 z-10 flex justify-around items-center text-[1.6rem] p-2 text-indigo-600 rounded-bl-lg rounded-br-lg transition-all duration-300"
             }
           >
             <Link
