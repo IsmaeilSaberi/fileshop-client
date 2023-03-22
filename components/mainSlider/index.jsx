@@ -16,7 +16,7 @@ SwiperCore.use([Autoplay]);
 
 const MainSlider = () => {
   return (
-    <section className="container mx-auto p-6">
+    <section className="container mx-auto p-2">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar]}
         slidesPerView={1}
