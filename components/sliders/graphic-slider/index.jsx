@@ -1,10 +1,12 @@
-import Slider2box from "./slider2box";
+"use client";
+
+import GraphicSliderBox from "./graphicSliderBox";
 import { AiOutlineRight } from "react-icons/ai";
 import { AiOutlineLeft } from "react-icons/ai";
 import { useRef } from "react";
 import Link from "next/link";
 
-const Slider2 = ({ linkComp, title }) => {
+const GraphicSlider = () => {
   const carouselRef = useRef();
   const carouselSwitcher = (data) => {
     if (carouselRef.current) {
@@ -21,7 +23,7 @@ const Slider2 = ({ linkComp, title }) => {
       <section className="flex flex-col gap-3 m-2">
         <header className="m-4 flex justify-between items-center">
           <h2 className="text-orange-500 text-2xl border-orange-500 border-r-2 pr-2">
-            {title}
+            فایل های گرافیکی
           </h2>
           <div className="flex gap-1 items-center">
             {/* <div className="flex items-center gap-1"></div> */}
@@ -35,9 +37,9 @@ const Slider2 = ({ linkComp, title }) => {
             />
             <Link
               className="bg-orange-500 px-4 border-2 py-2 rounded-lg transition-all duration-200 hover:bg-orange-600"
-              href={`/${linkComp}`}
+              href={`/`}
             >
-              مشاهده ی همه {`${title}`}
+              مشاهده ی همه
             </Link>
           </div>
         </header>
@@ -46,24 +48,24 @@ const Slider2 = ({ linkComp, title }) => {
           className="sliderContainer w-full max-w-7xl overflow-x-scroll"
         >
           <div className="flex justify-between itemas-center gap-2">
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
-            <Slider2box />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
+            <GraphicSliderBox />
           </div>
         </div>
       </section>
@@ -71,4 +73,4 @@ const Slider2 = ({ linkComp, title }) => {
   );
 };
 
-export default Slider2;
+export default GraphicSlider;

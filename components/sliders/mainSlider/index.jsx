@@ -1,3 +1,4 @@
+"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -11,7 +12,6 @@ import SwiperCore, {
   Scrollbar,
 } from "swiper";
 import Image from "next/image";
-
 SwiperCore.use([Autoplay]);
 
 const MainSlider = () => {
