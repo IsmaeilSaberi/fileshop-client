@@ -22,7 +22,9 @@ const GraphicSliderBox = () => {
         </div>
         <div className="flex flex-col gap-3 ">
           <Link href={"/"} target="_blank">
-            <h3 className="m-2">عنوان محصول محصول محصول محصول محصول</h3>
+            <h3 className="m-2 line-clamp-2">
+              عنوان محصول محصول محصول محصول محصول
+            </h3>
           </Link>
 
           <div className="flex flex-col gap-1">

@@ -4,7 +4,7 @@ import Link from "next/link";
 const BlogBox = () => {
   return (
     <article className="sliderItem p-2 transition-all duration-200 hover:mt-1">
-      <div className="relative h-[36rem] w-72 bg-white rounded-md shadow-[0px_1px_10px_rgba(0,0,0,0.25)] hover:shadow-[0px_2px_10px_rgba(0,0,0,0.5)]">
+      <div className="relative h-[32rem] w-72 bg-white rounded-md shadow-[0px_1px_10px_rgba(0,0,0,0.25)] hover:shadow-[0px_2px_10px_rgba(0,0,0,0.5)]">
         <div className="flex items-center justify-center p-1">
           <Link href={"/"} target="_blank">
             <Image
@@ -16,11 +16,13 @@ const BlogBox = () => {
             />
           </Link>
         </div>
-        <div className="flex flex-col gap-3 ">
+        <div className="flex flex-col gap-2 ">
           <Link href={"/"} target="_blank">
-            <h3 className="m-2">عنوان محصول محصول محصول محصول محصول</h3>
+            <h3 className="m-2 line-clamp-2">
+              عنوان محصول محصول محصول محصول محصول
+            </h3>
           </Link>
-          <p className="text-base sm:text-sm text-justify m-2">
+          <p className="text-base sm:text-sm text-justify m-2 line-clamp-3">
             متن مقاله ی مورد نظر که در اینجا از دیتابیس گرفته خواهد شد. متن
             مقاله ی مورد نظر که در اینجا از دیتابیس گرفته خواهد شد. متن مقاله ی
             مورد نظر که در اینجا از دیتابیس گرفته خواهد شد.

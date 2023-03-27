@@ -17,7 +17,16 @@ SwiperCore.use([Autoplay]);
 const MainSlider = () => {
   return (
     <section className="container mx-auto p-2">
-      <Swiper
+      <div className="flex justify-center items-center">
+        <Image
+          className="rounded-lg"
+          src={"/images/slider/slide1.jpg"}
+          alt="alt"
+          width={1320}
+          height={310}
+        />
+      </div>
+      {/* <Swiper
         modules={[Navigation, Pagination, Scrollbar]}
         slidesPerView={1}
         spaceBetween={20}
@@ -63,7 +72,7 @@ const MainSlider = () => {
             />
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
     </section>
   );
 };
