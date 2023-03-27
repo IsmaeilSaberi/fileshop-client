@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { AiOutlineSearch } from "react-icons/ai";
 import { BsSend } from "react-icons/bs";
 
 const ShopLayout = ({ children }) => {

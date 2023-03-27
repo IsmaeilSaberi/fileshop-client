@@ -30,7 +30,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/about"}
                 >
                   <MdArrowLeft />
                   <span>درباره ما</span>
@@ -39,7 +39,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/contact"}
                 >
                   <MdArrowLeft />
                   <span>تماس با ما</span>
@@ -48,7 +48,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/help"}
                 >
                   <MdArrowLeft />
                   <span>حریم خصوصی</span>
@@ -57,7 +57,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/blog"}
                 >
                   <MdArrowLeft />
                   <span>وبلاگ</span>
@@ -71,7 +71,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/help"}
                 >
                   <MdArrowLeft />
                   <span>سوالات متداول</span>
@@ -80,7 +80,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/help"}
                 >
                   <MdArrowLeft />
                   <span>چگونه خرید کنم؟</span>
@@ -89,7 +89,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="flex gap-1 w-32 transition-all duration-300 hover:text-gray-700 hover:gap-2 items-center"
-                  href={""}
+                  href={"/help"}
                 >
                   <MdArrowLeft />
                   <span>قوانین سایت</span>

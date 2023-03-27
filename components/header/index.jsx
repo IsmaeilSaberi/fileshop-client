@@ -115,7 +115,7 @@ const Header = () => {
                 <li>
                   <Link
                     className="w-32 h-10 rounded-md bg-zinc-200 flex justify-center items-center transition-all duration-200 hover:bg-orange-400 hover:text-white"
-                    href={"/"}
+                    href={"/blog"}
                   >
                     وبلاگ
                   </Link>
@@ -151,9 +151,15 @@ const Header = () => {
             </div>
             <div className="flex gap-4 items-center w-[20rem] justify-end">
               <div>
-                <BsPersonBoundingBox className="bg-zinc-400 text-white rounded p-2 w-12 h-12 " />
+                <Link href={"/account"}>
+                  <BsPersonBoundingBox className="bg-zinc-400 text-white rounded p-2 w-12 h-12 " />
+                </Link>
               </div>
-              <div className="flex gap-2 justify-center items-center bg-orange-400 p-2 rounded-md">
+
+              <Link
+                href={"/cart"}
+                className="flex gap-2 justify-center items-center bg-orange-400 p-2 rounded-md"
+              >
                 <div className="text-orange-500 flex items-center justify-center bg-white rounded-full w-8 h-8">
                   2
                 </div>
@@ -163,7 +169,7 @@ const Header = () => {
                 <div className="text-orange-500 bg-white rounded-lg flex justify-center items-center w-10 h-10">
                   <AiFillShopping className="w-6 h-6" />
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
